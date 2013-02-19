@@ -1,0 +1,366 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: yoTheme\n"
+"Report-Msgid-Bugs-To: http://youed.me/themes\n"
+"PO-Revision-Date: 2011-04-04 19:23+0800\n"
+"Last-Translator: Ethan <luo123qiu@gmail.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"POT-Creation-Date: \n"
+
+#: index.php:29
+msgid "Read more"
+msgstr "查看全文"
+
+#: index.php:47
+#: page.php:43
+#: single.php:46
+msgid "Sorry, no posts matched your criteria."
+msgstr "对不起,没有找到符合条件的文章。"
+
+#: index.php:19
+#: page.php:21
+#: single.php:21
+msgid "wrote on"
+msgstr "发表于"
+
+#: index.php:19
+#: single.php:21
+msgid "under"
+msgstr "分类"
+
+#: header.php:31
+msgid "Page %s"
+msgstr "第 %s 页"
+
+#: header.php:62
+msgid "Subscribe"
+msgstr "订阅本站"
+
+#: footer.php:3
+msgid "Copyright"
+msgstr "版权所有"
+
+#: footer.php:3
+msgid "View new version"
+msgstr "查看最新版本"
+
+#: sidebar.php:10
+msgid "Share"
+msgstr "分享"
+
+#: sidebar.php:8
+msgid "Share this page"
+msgstr "分享此页面"
+
+#: sidebar.php:17
+msgid "Categories"
+msgstr "所有分类"
+
+#: sidebar.php:23
+msgid "Search"
+msgstr "搜索本站"
+
+#: sidebar.php:28
+msgid "Archives:"
+msgstr "文章归档"
+
+#: sidebar.php:32
+msgid "Meta:"
+msgstr "管理"
+
+#: sidebar.php:36
+msgid "Syndicate this site using RSS"
+msgstr "RSS订阅本站"
+
+#: sidebar.php:36
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr>"
+
+#: sidebar.php:37
+msgid "The latest comments to all posts in RSS"
+msgstr "RSS订阅所有文章最新评论"
+
+#: sidebar.php:37
+msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr "评论 <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+
+#: sidebar.php:38
+msgid "This page validates as XHTML 1.0 Transitional"
+msgstr "此页面已通过XHTML 1.0 检测"
+
+#: sidebar.php:38
+msgid "Valid <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
+msgstr "<abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>检测"
+
+#: sidebar.php:40
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "使用WordPress搭建，最好的个人信息发布平台"
+
+#: searchform.php:3
+msgid "Search this site"
+msgstr "搜索本站"
+
+#: single.php:33
+msgid "<strong>Tags</strong>: "
+msgstr "<strong>标签</strong>："
+
+#single.php:
+msgid "Previous: "
+msgstr "上一篇："
+
+#single.php:
+msgid "Dude, already the newest post!"
+msgstr "嘿，伙计，这已经是最新的文章啦！"
+
+#single.php:
+msgid "Next: "
+msgstr "下一篇："
+
+#single.php:
+msgid "Boss, already the oldest post!"
+msgstr "呃，老板，没有比这更老的文章了！"
+
+#: cse.php:7
+msgid "Loading from Google..."
+msgstr "正在从Google 加载搜索结果..."
+
+#: comments.php:28
+msgid "No Comments"
+msgstr "暂无评论"
+
+#: comments.php:28
+msgid "1 Comments"
+msgstr "1条评论"
+
+#: comments.php:28
+msgid "% Comments."
+msgstr "%条评论"
+
+#: comments.php:56
+msgid "Logged in as %s | "
+msgstr "%s，欢迎回来 | "
+
+#: comments.php:56
+msgid "Log out of this account"
+msgstr "注销此帐户"
+
+#: comments.php:56
+msgid "Logout &raquo;"
+msgstr "退出 &raquo;"
+
+#: comments.php:62
+msgid "E-mail:"
+msgstr "邮箱："
+
+#: comments.php:61
+msgid "E-mail"
+msgstr "邮箱"
+
+#: comments.php:61
+msgid "(will not be published)"
+msgstr "(不会对外公开)"
+
+#: comments.php:64
+msgid "Website:"
+msgstr "主页："
+
+#: comments.php:58
+msgid "Submit Comment"
+msgstr "发表评论"
+
+#: comments.php:58
+msgid "[Ctrl + Enter]"
+msgstr "[使用Ctrl+回车快速提交]"
+
+#: comments.php:7
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "这是一篇加密的文章，输入密码后即可查看任何评论"
+
+#: comments.php:39
+msgid "No Comments yet."
+msgstr "暂无评论"
+
+#: comments.php:29
+msgid "<abbr title=\"Really Simple Syndication\">RSS</abbr> feed for comments on this post."
+msgstr "<abbr title=\"Really Simple Syndication\">RSS</abbr> 订阅此文章的所有评论"
+
+#: functions.php:117
+#: comments-ajax.php:152
+msgid "At"
+msgstr "于"
+
+#: comments.php:20
+msgid "Reply"
+msgstr "回复"
+
+#: comments.php:27
+msgid "No comments yet."
+msgstr "暂无任何评论。"
+
+#: comments.php:29
+msgid "Leave a Reply"
+msgstr "发表评论"
+
+#: comments.php:52
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "请<a href=\"%s\">登录</a>后发表评论。"
+
+#: comments.php:59
+msgid "Name"
+msgstr "名字"
+
+#: comments.php:60
+msgid "Name:"
+msgstr "名字："
+
+#: comments.php:59
+#: comments.php:61
+msgid "required"
+msgstr "必填"
+
+#: comments.php:63
+msgid "Website"
+msgstr "个人主页"
+
+#: comments.php:54
+msgid "You can use these tags: %s"
+msgstr "你可以使用这些标签：%s"
+
+#: comments.php:39
+msgid "Sorry, the comment form is closed at this time."
+msgstr "抱歉，评论已被关闭。"
+
+#: comments.php:35
+msgid "Older Comments"
+msgstr "上一页"
+
+#: comments.php:36
+msgid "Newer Comments"
+msgstr "下一页"
+
+#: index.php:19
+#: single.php:21
+#: page.php:21
+#: functions.php:117
+#: comments-ajax.php:152
+msgid "F jS, Y"
+msgstr "Y-n-j"
+
+#: index.php:21
+#: single.php:23
+#: page.php:23
+msgid "Comments are closed."
+msgstr "评论已关闭"
+
+#: index.php:23
+#: single.php:25
+#: page.php:25
+msgid "Leave a comment"
+msgstr "发表评论"
+
+#: index.php:23
+#: single.php:25
+#: page.php:25
+#: comments.php:10
+msgid "1 Comment"
+msgstr "1条评论"
+
+#: index.php:23
+#: single.php:25
+#: page.php:25
+#: comments.php:10
+msgid "% Comments"
+msgstr "%条评论"
+
+#: functions.php:116
+#: comments-ajax.php:151
+msgid " Says:"
+msgstr " 说："
+
+#: functions.php:117
+msgid "(Edit)"
+msgstr "(编辑)"
+
+#: functions.php:117
+msgid "#%1$s"
+msgstr "%1$s楼"
+
+#: functions.php:120
+#: comments-ajax.php:155
+msgid "Your comment is awaiting moderation."
+msgstr "您发表的评论正在等待审核。"
+
+#: functions.php:55
+msgid "Back to the first page"
+msgstr "返回至第一页"
+
+#: functions.php:55
+msgid "First"
+msgstr "首页"
+
+#: functions.php:57
+#: single.php:33
+msgid "Previous page"
+msgstr "上一页"
+
+#: functions.php:70
+#: single.php:33
+msgid "Next page"
+msgstr "下一页"
+
+#: functions.php:72
+msgid "Go to the last page"
+msgstr "跳转至最后一页"
+
+#: functions.php:72
+msgid "Last"
+msgstr "尾页"
+
+#: 404.php:9
+msgid "Welcome to 404 error page!"
+msgstr "欢迎来到 404 页面"
+
+#: 404.php:12
+msgid "Welcome to this customized error page. You've reached this page because you've clicked on a link that does not exist. This is probably our fault... but instead of showing you the basic '404 Error' page that is confusing and doesn't really explain anything, we've created this page to explain what went wrong."
+msgstr "欢迎您的到来. 您会到达这个页面证明您刚刚点击了失效的链接. 当然, 也可能是我们搞错了... 但与其向您展示一个混乱的, 没有任何说明的 404 出错页面, 我们创建这个页面可以向您解释究竟出了些什么问题."
+
+#: 404.php:13
+msgid "You can either (a) click on the 'back' button in your browser and try to navigate through our site in a different direction, or (b) click on the following link to go to homepage."
+msgstr "您现在可以 (a) 点击浏览器上的 \"返回\" 按钮并尝试通过其他方式进入我们的页面, 或者 (b) 点击下方的链接转跳到网站的首页."
+
+#: 404.php:14
+msgid "Back to homepage &raquo;"
+msgstr "回到首页 &raquo;"
+
+#: control.php:6
+#: control.php:7
+msgid "What is this?"
+msgstr "这是什么？"
+
+#: control.php:39
+msgid "Settings saved."
+msgstr "设置已保存。"
+
+#: control.php:40
+msgid "Already reset to default."
+msgstr "已恢复为默认设置。"
+
+#: control.php:35
+#: control.php:49
+msgid "Options"
+msgstr "主题选项"
+
+#: control.php:52
+#: control.php:67
+msgid "Save options"
+msgstr "保存设置"
+
+#: control.php:73
+msgid "Load default"
+msgstr "重置"
+

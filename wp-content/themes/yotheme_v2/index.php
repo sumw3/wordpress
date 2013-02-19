@@ -16,10 +16,11 @@
                 <div class="alist-time">
                     <span class="alist-year"><?php the_time('Y'); ?></span>
                     <span class="alist-date"><?php the_time('m'); ?>.<?php the_time('d'); ?></span>
+                    <span class="alist-author">By <strong><?php the_author(); ?></strong></span>
                 </div>
                 <div class="alist-container">
                     <h2 class="alist-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
-                    <div class="alist-meta"><?php the_author(); ?> / <?php the_category(', '); ?> / <?php 
+                    <div class="alist-meta">分类：<?php the_category(', '); ?> <strong>/</strong> <?php 
                     if (!comments_open()) {
                         echo "评论已关闭";
                     } else {

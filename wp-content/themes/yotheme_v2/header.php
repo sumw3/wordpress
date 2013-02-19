@@ -56,24 +56,7 @@ $keywords = trim(strip_tags($keywords));
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
     <?php wp_get_archives('type=monthly&format=link'); ?>
     <?php wp_head(); ?>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/js/yotheme.js"></script>
-    <!--[if lte IE 9]>
-        <script src="<?php bloginfo('template_directory'); ?>/js/html5shiv.js" type="text/javascript"></script>
-    <![endif]-->
-    <!--[if IE 6]>
-        <script src="js/fuck-ie6.js"></script>
-    <![endif]-->
-    <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-6589969-7']);
-        _gaq.push(['_trackPageview']);
-        (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
 </head>
 <body>
 <header id="header">
@@ -87,8 +70,8 @@ $keywords = trim(strip_tags($keywords));
         </nav>
         <div class="social">
             <a href="javascript:;" class="collect" onclick="addFavorite(window.location,document.title);" title="把我加入收藏">收藏本站</a>
-            <a href="http://feed.youed.me/" target="_blank" class="rssfeed" title="订阅本站">订阅本站</a>
-            <a href="http://www.weibo.com/youed" class="weibo" title="访问我的微博">访问我的微博</a>
+            <a href="<?php if(get_option('yotheme_feed')) { echo get_option('yotheme_feed'); } else { bloginfo('rss2_url'); } ?>" target="_blank" class="rssfeed" title="订阅本站">订阅本站</a>
+            <a href="http://www.weibo.com/inmars" class="weibo" title="访问我的微博">访问我的微博</a>
         </div>
         <br class="clr" />
     </div>

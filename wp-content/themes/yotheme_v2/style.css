@@ -19,22 +19,22 @@ q:before, q:after, blockquote:before, blockquote:after {content:"";}
 ol, ul {list-style:none;}
 
 /* Import font */
-@font-face {
+/*@font-face {
 font-family: "Segoe UI Light";
 src: local("Segoe UI Light"),
      local("SegoeUILight-Regular"),
      url(../fonts/SegoeUI-Light.woff) format("woff"),
      url(../fonts/SegoeUI-Light.ttf) format("truetype"),
      url(../fonts/SegoeUI-Light.eot);
-}  
+}  */
 
 /* Global style */
 html{-webkit-text-size-adjust:none;}
-body {font:14px/22px "Segoe UI Light", "Helvetica Neue", Arial, "Microsoft Yahei"; color:#666;}
+body {color: #666666; font:14px/22px "Microsoft Yahei",Tahoma,"Helvetica Neue","Luxi Sans","DejaVu Sans","Hiragino Sans GB",STHeiti;}
 .clr {clear:both; overflow:hidden; height:0;}
 .w {width:1000px; margin:auto;}
 a {text-decoration:none; color:#333;}
-a:hover {text-decoration:none; color:#000;}
+a:hover {text-decoration:underline; color:#000;}
 .sk,
 .sb,
 .nav-li-hover,
@@ -51,7 +51,7 @@ a:hover {text-decoration:none; color:#000;}
 #header {background:#343434; width:100%; position:fixed; z-index:999; box-shadow:0 0 5px #666;}
 .logo {float:left; height:50px;}
 .logo img {height:50px;}
-.search {float:left; margin:11px 0 0 5px; overflow:hidden;}
+.search {float:left; margin:11px 0 6px 5px; overflow:hidden;}
 .sk,.sb {border:none;}
 .sk {background-position:-10px -9px; width:104px; height:27px; padding:0 5px; float:left;}
 .sb {background-position:-124px -9px;width:30px; height:27px; text-indent:-99em; cursor:pointer;}
@@ -59,9 +59,10 @@ a:hover {text-decoration:none; color:#000;}
 .sb-hover {background-position:-124px -41px;}
 .sk-focus {background-position:-10px -73px;}
 .sb-focus {background-position:-205px -73px;}
-.nav {float:left; margin:11px 0 0 15px;}
+.nav {float:left; margin:11px 0 6px 15px;}
 .nav li {float:left; cursor:pointer; line-height:26px; height:27px; padding:0 12px; position:relative; margin-right:10px;}
 .nav li a {color:white;}
+.nav li a:hover {color:#DB27A7;}
 .nav-li-hover {background-position:-10px -404px;}
 .nav li ul {display:none; position:absolute;}
 .social {float:right; padding:13px 0 0 0; overflow:hidden;}
@@ -98,7 +99,7 @@ a:hover {text-decoration:none; color:#000;}
 .al-hover .alist-time,.al-hover .alist-container {background:#F2F2F2;}
 .alist-time {background:#F9F9F9; width:130px; float:left; text-align:center; padding:20px 0;}
 .alist-year {font-size:18px; display:block; margin-bottom:5px;}
-.alist-date {font-size:40px;}
+.alist-date {font-size:40px; display:block; margin-bottom:8px;}
 .alist-container {margin-left:150px; background:#F9F9F9; padding:25px;}
 .alist-title {font-size:24px; line-height:30px;}
 .alist-meta {font-size:12px; color:#999; margin-top:10px;}
@@ -146,10 +147,12 @@ a:hover {text-decoration:none; color:#000;}
 
 
 /* Footer style */
-#footer {background:#EEE; margin-top:40px; height:76px; line-height:76px; width:100%; font-size:18px;}
-.wordpress {float:right; width:76px; height:76px; display:block; background-position:-250px 0;}
+#footer {background:#343434; margin-top:36px; height:22px; line-height:22px; width:100%; }
+#footer a {color: #DDDDDD}
+#footer a strong {color: #DB27A7}
+/*.wordpress {float:right; width:76px; height:76px; display:block; background-position:-250px 0;}
 .wordpress:hover {background-position:-334px 0;}
-.wordpress:active {background-position:-418px 0;}
+.wordpress:active {background-position:-418px 0;}*/
 
 /* Error page */
 .err404 {background:#F9F9F9; padding:30px; margin:50px;}
