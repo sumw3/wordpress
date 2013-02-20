@@ -15,13 +15,13 @@
 
 // ** MySQL 设置 - 具体信息来自您正在使用的主机 ** //
 /** WordPress 数据库的名称 */
-define('DB_NAME', 'database_name_here');
+define('DB_NAME', 'sumw3_zzl_wp');
 
 /** MySQL 数据库用户名 */
-define('DB_USER', 'username_here');
+define('DB_USER', '832812_wpuser');
 
 /** MySQL 数据库密码 */
-define('DB_PASSWORD', 'password_here');
+define('DB_PASSWORD', 'digg2Mars');
 
 /** MySQL 主机 */
 define('DB_HOST', 'localhost');
