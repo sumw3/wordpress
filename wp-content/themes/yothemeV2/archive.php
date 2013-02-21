@@ -2,16 +2,8 @@
 /*
 Template Name: archive
 */
-wp_enqueue_script("jquery");
 
-/**
- * The Template for displaying all single posts.
- *
- * @package WordPress
- * @subpackage Twenty_Twelve
- * @since Twenty Twelve 1.0
- */
-get_header();
+  get_header();
 
 /*author:荒野无灯
 *URL: http://www.ihacklog.com
@@ -26,6 +18,7 @@ postcount=1;
 commentcount=1;
 
 */
+
 
     class hacklog_archives
 {
@@ -195,16 +188,27 @@ else
 }
 $hacklog_archives=new hacklog_archives();
 ?>
+
 <style type="text/css">.car-yearmonth { cursor: pointer; } .car-monthlisting{margin-left: 24px;} .car-monthlist{margin: 20px 0;}</style>
-
-	<div id="primary" class="site-content">
-		<div id="content" role="main">
-			<?php echo $hacklog_archives->PostList();?>
-		</div><!-- #content -->
-	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
-<?php 
+<div id="wrapper" class="w">
+    <div id="settings">
+        <div class="setting">
+            <div class="sidebar-control"><a href="javascript:;" class="b open" status="open" title="点击关闭">打开</a>侧边栏</div>
+        </div>
+        <a href="javascript:;" class="setting-button">个性化设置</a>
+    </div>
+    <h2 class="page-title">文章存档</h2>
+    <br class="clr" />
+    <div id="container" class="w">
+        <div id="post">
+            <?php echo $hacklog_archives->PostList();?> 
+        </div>
+        <aside id="sidebar" class="post-sidebar">
+            <?php get_sidebar(); ?>
+        </aside>
+    </div>
+</div>
+<?php
 function callback($buffer)
 {
   $append_js=<<<EOT

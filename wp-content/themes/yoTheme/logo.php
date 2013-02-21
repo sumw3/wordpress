@@ -39,7 +39,7 @@ if(get_header_image()) {
 $display=' display:none;';
 }
 ?>
-#logo h1 {font-size:2.3em; font-weight:bold!important; height:35px; word-wrap:normal; overflow:hidden; margin-top:5px; <?php echo $display; ?>}
+#logo h1 {font-size:2.8em; color: #1294C3; font-weight:bold!important; height:35px; word-wrap:normal; overflow:hidden; margin-top:5px; <?php echo $display; ?>}
 #logo a {color:#CCC; display:block; width:300px; height:<?php echo HEADER_IMAGE_HEIGHT; ?>px;}
 #logo a:hover {text-decoration:none;}
 #desc {color:#666; line-height:20px;<?php echo $display; ?>}

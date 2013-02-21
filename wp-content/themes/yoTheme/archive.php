@@ -2,16 +2,8 @@
 /*
 Template Name: archive
 */
-wp_enqueue_script("jquery");
 
-/**
- * The Template for displaying all single posts.
- *
- * @package WordPress
- * @subpackage Twenty_Twelve
- * @since Twenty Twelve 1.0
- */
-get_header();
+  get_header();
 
 /*author:荒野无灯
 *URL: http://www.ihacklog.com
@@ -26,6 +18,7 @@ postcount=1;
 commentcount=1;
 
 */
+
 
     class hacklog_archives
 {
@@ -197,14 +190,13 @@ $hacklog_archives=new hacklog_archives();
 ?>
 <style type="text/css">.car-yearmonth { cursor: pointer; } .car-monthlisting{margin-left: 24px;} .car-monthlist{margin: 20px 0;}</style>
 
-	<div id="primary" class="site-content">
-		<div id="content" role="main">
-			<?php echo $hacklog_archives->PostList();?>
-		</div><!-- #content -->
-	</div><!-- #primary -->
+<section id="body">
+	<?php echo $hacklog_archives->PostList();?> 
+</section>
 
-<?php get_sidebar(); ?>
-<?php 
+<?php
+get_sidebar();
+
 function callback($buffer)
 {
   $append_js=<<<EOT
