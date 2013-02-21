@@ -57,7 +57,8 @@ $keywords = trim(strip_tags($keywords));
 
 	?></title>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="all" />
-	<link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('url'); ?>/favicon.ico" />
+	<link rel="icon" href="<?php bloginfo('url'); ?>/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="<?php bloginfo('url'); ?>/favicon.ico" type="image/x-icon" />
 	<!--[if IE 6]>
 	<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/DD_belatedPNG_0.0.8a.js"></script>
 	<script type="text/javascript">

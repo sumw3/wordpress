@@ -26,7 +26,7 @@ html{-webkit-text-size-adjust:none;}
 /* Layout */
 body {color:#555; font:.75em 'Century Gothic', Tahoma, Verdana, Arial, "微软雅黑", "黑体", "宋体";}
 input,textarea {font-size:100%; font-family:Tahoma, Verdana, Arial, "微软雅黑", "黑体", "宋体";}
-.sprite {background:url(images/sprites.png) no-repeat;}
+.sprite {background:url(images/sprite.gif) no-repeat;}
 #container {width:960px; margin:auto;}
 header {height:110px; overflow:hidden; position:relative;}
 #mainmenu {float:right; padding:44px 0 0 0;}
@@ -40,8 +40,8 @@ header {height:110px; overflow:hidden; position:relative;}
 #mainmenu ul li ul li {float:none;}
 #mainmenu ul li ul li a {padding:0; margin:0;}
 #mainmenu ul li.current-menu-item li a {border-radius:0; background:none; color:#CCC;}
-a.rssfeed {position:absolute; right:20px; bottom:0; z-index:3; display:block; width:78px; height:24px; text-indent:-99em; background:url(images/sprites.png) 0 -174px no-repeat; _background:url(images/sprites.png) 0 -175px no-repeat;}
-a.rssfeed:hover {background:url(images/sprites.png) 0 -150px no-repeat;}
+a.rssfeed {position:absolute; right:20px; bottom:0; z-index:3; display:block; width:78px; height:24px; text-indent:-99em; background:url(images/rss.png) 0 -24px no-repeat; _background:url(images/rss.png) 0 -25px no-repeat;}
+a.rssfeed:hover {background:url(images/rss.png) no-repeat;}
 #wrapper {background:#FFF; overflow:hidden; height:100%; padding:20px; border-radius:8px; -moz-border-radius:8px;
 -webkit-border-radius:8px;}
 #body {width:650px; float:left;}
@@ -57,7 +57,7 @@ article {margin:0 0 20px 0;}
 .content ol {margin:10px 0 10px 40px; list-style:decimal;}
 .content ol ol {list-style:upper-roman;}
 .content ol ol ol {list-style:lower-alpha;}
-.content pre {border:1px solid #CCC; padding:15px 15px 15px 25px; line-height:20px; margin:10px; max-height:300px; overflow-x:auto; overflow-y:hidden; background:#F2F2F2 url(images/sprites.png) -250px -132px no-repeat; word-wrap:break-word; width:588px;}
+.content pre {border:1px solid #CCC; padding:15px 15px 15px 25px; line-height:20px; margin:10px; max-height:300px; overflow-x:auto; overflow-y:hidden; background:#F2F2F2 url(images/sprite.gif) -250px -132px no-repeat; word-wrap:break-word; width:588px;}
 .content h1 {font-size:180%;}
 .content h2 {font-size:160%;}
 .content h3 {font-size:140%;}
@@ -87,7 +87,7 @@ aside ul li {margin:0 0 20px 0; overflow:hidden;}
 aside ul li h3 {font-size:140%; padding-bottom:10px; border-bottom:1px solid #1294C3; margin:0 0 10px 0; word-wrap:break-word;}
 aside ul li div {word-wrap:break-word;}
 aside ul li ul {margin:0 0 0 15px;}
-aside ul li ul li {line-height:19px; padding:4px 0 4px 20px; margin:0; background:url(images/sprites.png) 0 -108px no-repeat;}
+aside ul li ul li {line-height:19px; padding:4px 0 4px 20px; margin:0; background:url(images/sprite.gif) 0 -108px no-repeat;}
 aside ul li ul li span {display:block;}
 aside a {text-decoration:none; color:#555;}
 aside a:hover {text-decoration:underline; color:#555}
@@ -132,7 +132,7 @@ footer a:hover {color:#F9F9F9;}
 #comments {font-size:2em; color:#20A3D3; float:left;}
 .comments_title span {float:right; display:block; width:220px;}
 .comments_title strong {font-weight:normal; float:left; display:block; width:200px; text-align:right;}
-.comments_title span a {display:block; background:url(images/sprites.png) -96px -26px no-repeat; margin-top:8px; margin-top:5px\0; width:16px; height:16px; text-indent:-999em; float:right;}
+.comments_title span a {display:block; background:url(images/sprite.gif) -96px -26px no-repeat; margin-top:8px; margin-top:5px\0; width:16px; height:16px; text-indent:-999em; float:right;}
 .commentlist {margin:30px 0;}
 .commentlist li {padding:20px; margin:10px 0;}
 .thread-even {background:#F9F9F9;}

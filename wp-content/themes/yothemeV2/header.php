@@ -50,7 +50,8 @@ $keywords = trim(strip_tags($keywords));
     <meta name="chinaz-site-verification" content="8e778d26-43c3-4135-8b50-117593310a2a" />
     <meta name="baidu-site-verification" content="KRnCGH6Bd9gixJWS" />
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="all" />
-    <link rel="shortcut icon" type="image/x-icon" href="<?php bloginfo('url'); ?>/favicon.ico" />
+    <link rel="icon" href="<?php bloginfo('url'); ?>/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="<?php bloginfo('url'); ?>/favicon.ico" type="image/x-icon" />
     <link rel="alternate" type="application/rss+xml" title="RSS 2.0 - all posts" href="<?php if(get_option('yotheme_feed')) { echo get_option('yotheme_feed'); } else { bloginfo('rss2_url'); } ?>" />
     <link rel="alternate" type="application/rss+xml" title="RSS 2.0 - all comments" href="<?php echo home_url(); ?>/comments/feed/" />
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
