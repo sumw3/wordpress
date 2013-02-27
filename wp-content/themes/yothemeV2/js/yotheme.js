@@ -37,8 +37,8 @@ $(function() {
     //单篇文章页面高度
     var sideh = $("#sidebar").height();
     var posth = $("#post").height();
-    var sideh = parseInt(sideh)+254;
-    if (sideh>posth) {
+    var sideh = parseInt(sideh);
+    if (sideh>posth && $("#post").length>0) {
         $("#container").css("height",sideh+"px");
     }
     //搜索框交互样式
